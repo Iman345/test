@@ -1,0 +1,207 @@
+
+
+
+
+li.nav__items{
+    font-family: 'Yusei Magic', sans-serif;
+    color: #ff70a6;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+}
+
+
+li.nav__items:hover{
+    color:
+    #7e4ccb;
+}
+
+
+.section{
+    display: flex;
+  
+    width: 50%;
+    margin: auto;
+   
+    min-height: 80vh;
+    align-items: center;
+    }
+  
+    .about {
+        flex: 1;
+        }
+        .about-text h1 {
+        font-size: 44px;
+        font-weight: 500;
+        background: linear-gradient(to right, #7bdff2, #ff70a6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+        .about-text p {
+       
+        margin-top: 5px;
+        padding-bottom: 20px;
+        font-size: 22px;
+        color: #585772;
+        }
+        
+        
+
+    .cover img {
+  
+    filter: drop-shadow(0px 5px 3px rgb(5, 126, 167));
+    animation: drop 1.5s ease;
+    }
+    
+.home__content{
+    padding: 10px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgb(4, 181, 252)!important;
+}
+h2.home__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: 'Yusei Magic', sans-serif;
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Yusei Magic', sans-serif;
+    line-height: 40px;
+}
+h4.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: 'Yusei Magic', sans-serif;
+    
+}
+.header{
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #83dff2;
+}
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #83dff2;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 768px){
+ .header{
+     justify-content: space-between;
+ }
+ .navigation.pxy__30 {
+        display: none;
+    }
+h2.white.pz__10 {
+    font-size: 50px!important;
+}
+svg.bi.bi-justify.white.pointer {
+    width: 30px;
+    height: 30px;
+}
+}
+@media only screen and (max-width: 425px){
+    h2.home__text.pz__10{
+    font-size: 32px;
+}
+h3.sweet.pz__10 {
+    font-size: 40px;
+}
+h1.home__text {
+    font-size: 14px;
+}
+h4.home__text {
+    font-size: 45px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .home {
+            flex-direction: column;
+        }
+    
+    .about {
+    margin-top: 5vh;
+   
+        }
+    .about-text h1 {
+    font-size: 30px;
+        }
+    .about-text p {
+    font-size: 18px;
+        }
+    
+    .btns {
+    
+    
+    padding: 10px 0px 0px 0px;
+        }
+    
+        
+        .cover img {
+    
+            height: 80%;
+        }
+    
+    }
+    
+    
+    
+    .footer{
+      height: 4rem;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      
+      background: #a2e0ff;
+      text-align: center;
+      color: #f4f4f4;
+    }
+    
+    
+    
+    .bottom{
+      padding: 10px;
+      font-size: 1.6rem;
+    
+    }
+    
+    @media (max-width: 500px){
+      .bottom{
+          font-size: 70%;
+      }
+    }    
+    
+    @media(min-width: 501px) and (max-width: 768px){
+      .bottom{
+      font-size: 100%;
+      }
+    }    
